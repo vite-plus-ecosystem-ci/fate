@@ -249,8 +249,9 @@ const sseHeaders = {
   'content-type': 'text/event-stream; charset=utf-8',
 } as const;
 
-const normalizeRootConfig = (root: RootConfig): { procedure?: string; view: DataView<AnyRecord> } =>
-  isDataView(root) ? { view: root } : root;
+const normalizeRootConfig = (
+  root: RootConfig,
+): { procedure?: string; view: DataView<AnyRecord> } => (isDataView(root) ? { view: root } : root);
 
 const rootProcedureName = (name: string, _root: RootConfig): string => {
   return name;

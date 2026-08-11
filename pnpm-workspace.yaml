@@ -13,8 +13,8 @@ allowBuilds:
   workerd: true
 
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.2.4
-  vite-plus: 0.2.4
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.16f3018f31dd475daf775e87e3eeb870fe9e5b4d
+  vite-plus: 0.0.0-commit.16f3018f31dd475daf775e87e3eeb870fe9e5b4d
   vitest: 4.1.10
   '@vitest/coverage-v8': 4.1.10
 
