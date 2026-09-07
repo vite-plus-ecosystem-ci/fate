@@ -14,10 +14,10 @@ allowBuilds:
   workerd: true
 
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.3.0
-  vite-plus: 0.3.0
-  vitest: 5.0.0
-  '@vitest/coverage-v8': 5.0.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de
+  vite-plus: 0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de
+  vitest: 4.1.11
+  '@vitest/coverage-v8': 4.1.11
 
 onlyBuiltDependencies:
   - '@prisma/client'
@@ -37,8 +37,8 @@ overrides:
   better-auth: 1.7.2
   kysely: 0.28.17
   pg: 8.23.0
-  vite: 'catalog:'
-  vitest: 'catalog:'
+  vite@*: 'catalog:'
+  vitest@*: 'catalog:'
 
 peerDependencyRules:
   allowAny:
