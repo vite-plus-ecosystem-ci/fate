@@ -28,6 +28,7 @@ const lazyClientPlugins = (): Array<PluginOption> => [
 ];
 
 export default defineConfig({
+  test: { clearMocks: false },
   build: { outDir: join(root, '../dist/client') },
   cacheDir: join(root, 'node_modules/.vite/graphql'),
   plugins: [

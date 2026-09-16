@@ -12,6 +12,7 @@ const lazyVoidPlugins = (): Array<PluginOption> => [
 ];
 
 export default defineConfig({
+  test: { clearMocks: false },
   environments: {
     void_worker: {
       optimizeDeps: {

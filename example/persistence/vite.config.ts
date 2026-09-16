@@ -5,6 +5,7 @@ import { defineConfig } from 'vite-plus';
 import { createBackend } from './server.ts';
 
 export default defineConfig({
+  test: { clearMocks: false },
   plugins: [
     tailwindcss(),
     {

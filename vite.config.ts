@@ -141,6 +141,7 @@ export default defineConfig({
     '*': 'vp check --fix',
   },
   test: {
+    clearMocks: false,
     exclude: [
       ...configDefaults.exclude,
       '.template-tests/**',
