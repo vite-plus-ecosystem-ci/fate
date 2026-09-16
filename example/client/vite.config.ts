@@ -26,7 +26,6 @@ const lazyClientPlugins = (): Array<PluginOption> => [
 ];
 
 export default defineConfig({
-  test: { clearMocks: false },
   build: { outDir: join(root, '../dist/client') },
   cacheDir: join(root, 'node_modules/.vite/default'),
   plugins: [
@@ -37,4 +36,5 @@ export default defineConfig({
   ],
   resolve: { conditions: ['@nkzw/source'] },
   server: { port: 6001 },
+  test: { clearMocks: false },
 });

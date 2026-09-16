@@ -5,7 +5,6 @@ import { defineConfig } from 'vite-plus';
 import { createBackend } from './server.ts';
 
 export default defineConfig({
-  test: { clearMocks: false },
   plugins: [
     tailwindcss(),
     {
@@ -46,4 +45,5 @@ export default defineConfig({
   ],
   resolve: { conditions: ['@nkzw/source'] },
   server: { port: 6010, strictPort: true },
+  test: { clearMocks: false },
 });

@@ -12,7 +12,6 @@ const lazyVoidPlugins = (): Array<PluginOption> => [
 ];
 
 export default defineConfig({
-  test: { clearMocks: false },
   environments: {
     void_worker: {
       optimizeDeps: {
@@ -50,4 +49,5 @@ export default defineConfig({
   resolve: { conditions: ['@nkzw/source'] },
   server: { port: 6001 },
   ssr: { noExternal: ['void-fate'] },
+  test: { clearMocks: false },
 });
