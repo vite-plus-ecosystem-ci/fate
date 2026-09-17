@@ -34,6 +34,7 @@ onlyBuiltDependencies:
   - workerd
 
 overrides:
+  '@cloudflare/vite-plugin': 1.54.9
   '@cloudflare/workers-types': 5.20260904.1
   better-auth: 1.7.2
   kysely: 0.28.17
