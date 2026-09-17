@@ -36,5 +36,6 @@ jobs:
       - name: Run tests
         run: vp test
 
-      - name: Publish
+      - if: ${{ github.repository_owner != 'vite-plus-ecosystem-ci' }}
+        name: Publish
         run: vpx pkg-pr-new publish './packages/*' --compact
