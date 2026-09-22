@@ -123,6 +123,7 @@ export default defineConfig({
           packageDir: findWorkspaces(import.meta.dirname),
         },
       ],
+      'unicorn/consistent-function-scoping': 'off',
       'workspaces/no-absolute-imports': 'error',
       'workspaces/no-relative-imports': 'error',
     },
