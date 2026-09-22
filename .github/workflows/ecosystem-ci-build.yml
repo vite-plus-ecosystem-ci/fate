@@ -15,7 +15,7 @@ jobs:
           node-version: '24'
           cache: false
           run-install: true
-      - name: vp build
-        run: vp run build:all
+      - name: vp setup and build
+        run: vp run dev:setup && vp run build:all
       - name: vp check
         run: vp check
