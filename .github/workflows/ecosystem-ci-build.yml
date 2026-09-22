@@ -16,6 +16,6 @@ jobs:
           cache: false
           run-install: true
       - name: vp setup and build
-        run: vp run dev:setup && vp run build:all
+        run: vp run dev:setup && vp run build:all && vp run build:api-docs && vp run copy-package-docs
       - name: vp check
         run: vp check
