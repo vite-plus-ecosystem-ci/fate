@@ -35,3 +35,4 @@ tsconfig.tsbuildinfo
 vite.config.ts.timestamp-*
 
 .template-tests/
+.vitest/
