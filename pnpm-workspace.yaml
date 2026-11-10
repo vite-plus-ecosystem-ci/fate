@@ -19,8 +19,8 @@ catalog:
   react-dom: 19.3.1
   '@types/react': 19.3.0
   '@types/react-dom': 19.3.0
-  vite: npm:@voidzero-dev/vite-plus-core@1.5.0
-  vite-plus: 1.5.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
+  vite-plus: 0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
   vitest: 5.1.0
   '@vitest/coverage-v8': 5.1.0
 
@@ -58,16 +58,16 @@ minimumReleaseAgeExclude:
   - '@nkzw/*'
   - '@void/*'
   - 'void'
-  - '@voidzero-dev/vite-plus-core@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-darwin-arm64@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-darwin-x64@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-linux-x64-musl@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.3.3 || 1.2.0 || 1.5.0'
-  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.3.3 || 1.2.0 || 1.5.0'
-  - vite-plus@0.3.3 || 1.2.0 || 1.5.0
+  - '@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0'
+  - vite-plus@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 0.3.3 || 1.2.0 || 1.5.0
   - '@cloudflare/codemods@0.2.1 || 0.5.0'
   - cf@1.0.0-beta.5 || 1.0.0-beta.17
   - '@cloudflare/build-output-utils@0.9.2'
